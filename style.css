@@ -440,3 +440,19 @@ body {
         min-width: 100%;
     }
 }
+
+/* ========== УВЕЛИЧЕНИЕ ГЛАВНОГО ФОТО НА МОБИЛЬНЫХ ========== */
+@media (max-width: 680px) {
+    .hero-image {
+        margin-left: -24px;
+        margin-right: -24px;
+        margin-top: -24px;
+        margin-bottom: 24px;
+    }
+    
+    .hero-img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
