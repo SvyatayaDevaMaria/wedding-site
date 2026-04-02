@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Денис & Анастасия | Свадьба</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="outer">
+        <div class="card">
+            <!-- Верхнее фото (замените src на свой файл) -->
+            <div class="hero-image">
+                <img src="1774098685.png" alt="Денис и Анастасия" class="hero-img">
+            </div>
+
+            <!-- Текст приглашения -->
+            <div class="invite-text">
+                <p>
+                    Дорогие друзья и родные, мы приглашаем вас на нашу свадьбу!<br>
+                    Мы будем рады разделить с вами радость неповторимого для нас дня – дня нашей свадьбы!
+                </p>
+            </div>
+
+            <!-- Места торжества (две карточки с фото и адресом) -->
+            <div class="section">
+                <h2 class="section-title">МЕСТА ТОРЖЕСТВА</h2>
+                <div class="locations">
+                    <div class="location-card">
+                        <div class="location-photo" style="background-image: url('zags.PNG');"></div>
+                        <div class="location-info">
+                            <h3>Торжественная церемония</h3>
+                            <div class="location-time">14:30</div>
+                            <div class="location-address">
+                                Г. Южноуральск,<br>
+                                ул. Ленина, д. 26
+                            </div>
+                        </div>
+                    </div>
+                    <div class="location-card">
+                        <div class="location-photo" style="background-image: url('restor.PNG');"></div>
+                        <div class="location-info">
+                            <h3>Праздничный банкет</h3>
+                            <div class="location-time">17:00</div>
+                            <div class="location-address">
+                                г. Южноуральск, ул. Лучистая,<br>
+                                д. 9, арт-ресторан "Вивальди"
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-link-wrapper">
+                    <a href="https://maps.yandex.ru/?text=Южноуральск" target="_blank" class="map-link">Построить маршрут →</a>
+                </div>
+            </div>
+
+            <!-- Программа как путь (таймлайн) -->
+            <div class="section">
+                <h2 class="section-title">ПРОГРАММА ТОРЖЕСТВА</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-time">14:00</div>
+                            <div class="timeline-event">Сбор гостей</div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-time">14:30</div>
+                            <div class="timeline-event">Роспись</div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-time">17:00</div>
+                            <div class="timeline-event">Праздничный банкет</div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-time">23:00</div>
+                            <div class="timeline-event">Конец торжества</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Таймер в красивых кругах внутри прямоугольника -->
+            <div class="section">
+                <h2 class="section-title">ДО ТОРЖЕСТВА ОСТАЛОСЬ</h2>
+                <div class="timer-frame">
+                    <div class="circle-timer">
+                        <div class="circle-unit">
+                            <div class="circle-number" id="days">00</div>
+                            <div class="circle-label">дней</div>
+                        </div>
+                        <div class="circle-unit">
+                            <div class="circle-number" id="hours">00</div>
+                            <div class="circle-label">часов</div>
+                        </div>
+                        <div class="circle-unit">
+                            <div class="circle-number" id="minutes">00</div>
+                            <div class="circle-label">минут</div>
+                        </div>
+                        <div class="circle-unit">
+                            <div class="circle-number" id="seconds">00</div>
+                            <div class="circle-label">секунд</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Палитра 9 цветов -->
+            <div class="section">
+                <h2 class="section-title">ПАЛИТРА ТОРЖЕСТВА</h2>
+                <div class="palette">
+                    <div class="palette-color" style="background: #22513d;"></div>
+                    <div class="palette-color" style="background: #505944;"></div>
+                    <div class="palette-color" style="background: #7d8669;"></div>
+                    <div class="palette-color" style="background: #b1b696;"></div>
+                    <div class="palette-color" style="background: #e0d2c7;"></div>
+                    <div class="palette-color" style="background: #bea493;"></div>
+                    <div class="palette-color" style="background: #927567;"></div>
+                    <div class="palette-color" style="background: #5d3d26;"></div>
+                    <div class="palette-color" style="background: #222127;"></div>
+                </div>
+                <div class="dresscode-text">
+                    <p><strong>Мы будем очень рады, если вы поддержите цветовую палитру нашего торжества!</strong></p>
+                </div>
+            </div>
+
+            <!-- ДЕКОРАТИВНЫЙ БЛОК -->
+            <div class="decorative-block">
+                <div class="decorative-line">
+                    <span class="decorative-dot"></span>
+                    <span class="decorative-dot"></span>
+                    <span class="decorative-dot"></span>
+                    <span class="decorative-dot"></span>
+                    <span class="decorative-dot"></span>
+                </div>
+                <p class="decorative-text">С нетерпением ждём вас в этот особенный день<br>в окружении лета, любви и самых близких людей</p>
+                <div class="decorative-line">
+                    <span class="decorative-dot"></span>
+                    <span class="decorative-dot"></span>
+                    <span class="decorative-dot"></span>
+                    <span class="decorative-dot"></span>
+                    <span class="decorative-dot"></span>
+                </div>
+            </div>
+
+            <!-- Предупреждение о цветах (текст теперь хорошо читается) -->
+            <div class="flower-warning">
+                <div class="warning-line"></div>
+                <p>Мы будем признательны, если вместо цветов вы просто подарите нам корма для животных, которые мы сами отвезем в приют после торжества.<br>Цветы сложно транспортировать после праздника, а ваше присутствие — лучший подарок.</p>
+                <div class="warning-line"></div>
+            </div>
+
+            <!-- КНОПКА ПОДТВЕРЖДЕНИЯ -->
+            <div class="vk-section">
+                <a href="https://max.ru/join/623QJFdfBB9IGYSQwmrCkDk_tjqx6nGpSXwSv_LpKjc" target="_blank" class="vk-button">📝 Подтвердить участие (опрос МАКС)</a>
+                <div class="vk-note">Пожалуйста, сообщите о вашем присутствии до 10 июня 2026 года</div>
+            </div>
+
+            <div class="footer">
+                Денис & Анастасия · 04.07.2026
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function updateTimer() {
+            const wedding = new Date(2026, 6, 4, 14, 0, 0);
+            const now = new Date();
+            const diff = wedding - now;
+
+            if (diff <= 0) {
+                document.getElementById('days').innerText = '00';
+                document.getElementById('hours').innerText = '00';
+                document.getElementById('minutes').innerText = '00';
+                document.getElementById('seconds').innerText = '00';
+                return;
+            }
+
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (86400000)) / (3600000));
+            const minutes = Math.floor((diff % 3600000) / 60000);
+            const seconds = Math.floor((diff % 60000) / 1000);
+
+            document.getElementById('days').innerText = days < 10 ? '0' + days : days;
+            document.getElementById('hours').innerText = hours < 10 ? '0' + hours : hours;
+            document.getElementById('minutes').innerText = minutes < 10 ? '0' + minutes : minutes;
+            document.getElementById('seconds').innerText = seconds < 10 ? '0' + seconds : seconds;
+        }
+        setInterval(updateTimer, 1000);
+        updateTimer();
+    </script>
+</body>
+</html>
