@@ -442,17 +442,17 @@ body {
 }
 
 /* ========== УВЕЛИЧЕНИЕ ГЛАВНОГО ФОТО НА МОБИЛЬНЫХ ========== */
+/* Главное фото — крупнее на мобильных */
 @media (max-width: 680px) {
-    .hero-image {
-        margin-left: -24px;
-        margin-right: -24px;
-        margin-top: -24px;
-        margin-bottom: 24px;
-    }
-    
     .hero-img {
         width: 100%;
         height: auto;
-        display: block;
+        transform: scale(1.05);  /* увеличиваем на 5% */
+    }
+    
+    .hero-image {
+        text-align: center;
+        overflow: hidden;  /* чтобы не вылезало за края */
+        margin-bottom: 24px;
     }
 }
