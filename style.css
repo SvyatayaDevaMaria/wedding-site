@@ -91,7 +91,7 @@ body {
 .location-photo {
     height: 200px;
     background-size: cover;
-    background-position: center;
+    background-position: top center;
 }
 
 .location-info {
@@ -387,9 +387,8 @@ body {
 /* ========== АДАПТИВНОСТЬ ========== */
 @media (max-width: 680px) {
     .location-photo {
-        height: 200px;
-        background-size: cover;
         background-position: top center;
+        height: 220px;  /* чуть выше, чтобы лучше видно */
         background-repeat: no-repeat;
         background-color: #f9f9f6;
         min-height: 200px;
